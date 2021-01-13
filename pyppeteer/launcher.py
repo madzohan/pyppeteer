@@ -149,7 +149,7 @@ class Launcher(object):
 
         def _close_process(*args: Any, **kwargs: Any) -> None:
             if not self.chromeClosed:
-                self._loop.run_until_complete(self.killChrome())
+                self._loop.create_task(self.killChrome())
 
         # don't forget to close browser process
         if self.autoClose:
