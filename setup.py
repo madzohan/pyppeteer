@@ -27,7 +27,7 @@ setup(
     version='0.2.5',
     description='Headless chrome/chromium automation library (unofficial port of puppeteer)',
     python_requires='==3.*,>=3.6.1',
-    project_urls={"homepage": "https://github.com/pyppeteer/pyppeteer", "repository": "https://github.com/pyppeteer/pyppeteer"},
+    project_urls={"homepage": "https://github.com/madzohan/pyppeteer", "repository": "https://github.com/madzohan/pyppeteer"},
     author='granitosaurus',
     author_email='bernardas.alisauskas@pm.me',
     maintainer='Hiroyuki Takagi',
